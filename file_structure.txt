@@ -1,0 +1,45 @@
+
+
+
+
+ecommerce-frontend/
+│
+├── src/
+│   ├── api/                # Backend communication
+│   │   ├── axios.js
+│   │   ├── auth.api.js
+│   │   ├── products.api.js
+│   │   ├── cart.api.js
+│   │   ├── orders.api.js
+│   │   └── payments.api.js
+│   │
+│   ├── auth/
+│   │   ├── AuthContext.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── ProductList.jsx
+│   │   ├── ProductDetail.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Profile.jsx
+│   │   └── Orders.jsx
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── CartItem.jsx
+│   │   └── Loader.jsx
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── utils/
+│   │   └── formatters.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
